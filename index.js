@@ -1,5 +1,7 @@
+// importing json-server library
 const jsonServer=require('json-server')
 
+// creating server instance
 const mpServer=jsonServer.create()
 
 const middleweare=jsonServer.defaults()
